@@ -1,0 +1,122 @@
+:root{
+    --fuentePrincipal: 'Rajdhani', sans-serif;
+}
+
+.title{
+    color: #265ABF;
+    font-size: 60px;
+    text-align: center;
+}
+.title2{
+    color: #265ABF;
+    font-size: 14px;
+    text-align: center;
+}
+.title3{
+    
+    font-size: 14px;
+    text-align: center;
+}
+.box{
+    max-width: 80%;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .box{
+        max-width: 90%;
+    }
+}
+.text{
+    font-size: 30px;
+}
+
+.input{
+    font-family: var(--fuentePrincipal);
+    font-weight: 700;
+    padding: 10px;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #E7EFFF;
+    border: none;
+    margin-bottom: 15px;
+    width: 80%;
+}
+.input_password{
+    padding: 10px;
+}
+.input_password::placeholder{
+    font-family: var(--fuentePrincipal);
+    font-weight: 700;
+}
+.campo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+    .campo {
+        width: 100%;
+    }
+}
+.cont_btn{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.btn_input{
+    font-family: var(--fuentePrincipal);
+    font-weight: 700;
+    font-size: 40px;
+    background-color: #2669BF;
+    border: none;
+    border-radius: 16px;
+    padding: 0 60px;
+}
+.btn_input2{
+    font-family: var(--fuentePrincipal);
+    color: #265ABF;
+    font-weight: 700;
+    font-size: 40px;
+    background-color: #E7EFFF;
+    border: none;
+    border-radius: 16px;
+    padding: 0 60px;
+}
+.lineas{
+    
+    display: grid;
+    grid-template-columns: 6fr 1fr 6fr;
+    align-items: center;
+    justify-content: center;
+}
+.lineas_div{
+    max-width: 1000%;
+    border-top: 1px solid black;
+    
+}
+.linea__text{
+    font-size: 30px;
+    text-align: center;
+}
+.redes__logos--img{
+    max-width: 100px;
+}
+.redes__logos{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    .redes__logos {
+        gap: 30px;
+    }
+}
+.redes{
+    margin-bottom: 30px;
+}
